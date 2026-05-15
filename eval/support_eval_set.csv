@@ -1,0 +1,71 @@
+query,expected_action,expected_source
+How long does standard shipping take?,auto_respond,shipping.md
+When will my standard delivery arrive?,auto_respond,shipping.md
+How many business days does shipping usually take?,auto_respond,shipping.md
+Do you offer express shipping?,auto_respond,shipping.md
+How fast is express delivery?,auto_respond,shipping.md
+My package has not arrived after 12 business days,auto_respond,shipping.md
+My order still has not arrived after 10 business days,auto_respond,shipping.md
+My package is missing,auto_respond,shipping.md
+Do you ship internationally?,auto_respond,shipping.md
+Will I have to pay customs fees?,auto_respond,shipping.md
+How long does order processing take?,auto_respond,shipping.md
+Can I track my shipment?,escalate_to_human,escalation_rules.md
+Can I return an item after delivery?,auto_respond,returns_refunds.md
+What is your return window?,auto_respond,returns_refunds.md
+How many days do I have to request a return?,auto_respond,returns_refunds.md
+Can I get a refund for a damaged item?,auto_respond,returns_refunds.md
+I received a damaged item and want a refund,auto_respond,returns_refunds.md
+My item arrived broken,auto_respond,returns_refunds.md
+How long do refunds take?,auto_respond,returns_refunds.md
+When will my refund appear?,auto_respond,returns_refunds.md
+Can I return an opened item?,auto_respond,returns_refunds.md
+I want to dispute this refund decision,escalate_to_human,returns_refunds.md
+I want a chargeback,escalate_to_human,returns_refunds.md
+What payment methods do you accept?,auto_respond,payments.md
+Can I pay with PayPal?,auto_respond,payments.md
+Do you accept debit cards?,auto_respond,payments.md
+My payment failed at checkout,auto_respond,payments.md
+Why did my card get declined?,auto_respond,payments.md
+I was charged twice,escalate_to_human,payments.md
+There is a duplicate charge on my card,escalate_to_human,payments.md
+Do you store my credit card number?,auto_respond,payments.md
+Is my payment information secure?,auto_respond,payments.md
+How do I cancel my subscription?,auto_respond,subscriptions.md
+Can I pause my subscription?,auto_respond,subscriptions.md
+How do I change my subscription?,auto_respond,subscriptions.md
+Where do I manage my subscription?,auto_respond,subscriptions.md
+When do I need to cancel before renewal?,auto_respond,subscriptions.md
+Will I get a reminder before renewal?,auto_respond,subscriptions.md
+My subscription payment failed,auto_respond,subscriptions.md
+I want a refund for my subscription renewal,escalate_to_human,subscriptions.md
+I am angry about my subscription renewal,escalate_to_human,subscriptions.md
+I want to sue your company,escalate_to_human,escalation_rules.md
+This feels like fraud,escalate_to_human,escalation_rules.md
+I am going to contact my lawyer,escalate_to_human,escalation_rules.md
+Your company is a scam,escalate_to_human,escalation_rules.md
+Can I take this supplement while pregnant?,escalate_to_human,escalation_rules.md
+I had an allergic reaction,escalate_to_human,escalation_rules.md
+Is this product safe with medication?,escalate_to_human,escalation_rules.md
+I ended up in the hospital after using this,escalate_to_human,escalation_rules.md
+My question is not covered by your policies,escalate_to_human,escalation_rules.md
+I cannot log into my account,auto_respond,account_access.md
+How do I reset my password?,auto_respond,account_access.md
+My account is locked after failed login attempts,auto_respond,account_access.md
+How do I change my account email?,auto_respond,account_access.md
+Someone else claims ownership of my account,escalate_to_human,account_access.md
+Where can I download my invoice?,auto_respond,billing.md
+My SaaS payment failed,auto_respond,billing.md
+I see a duplicate charge on my SaaS account,escalate_to_human,billing.md
+Do you accept debit cards for the platform?,auto_respond,billing.md
+Where do I update my billing method?,auto_respond,billing.md
+The app is not loading in my browser,auto_respond,technical_issues.md
+My API request failed with error code 401,auto_respond,technical_issues.md
+My data is not syncing,auto_respond,technical_issues.md
+I think my account was hacked,escalate_to_human,technical_issues.md
+There may be unauthorized access to my account,escalate_to_human,technical_issues.md
+How do I upgrade my plan?,auto_respond,subscriptions.md
+How do I downgrade my plan?,auto_respond,subscriptions.md
+Does my subscription renew automatically?,auto_respond,subscriptions.md
+When does my trial expire?,auto_respond,subscriptions.md
+I want a refund for my SaaS subscription charge,escalate_to_human,subscriptions.md

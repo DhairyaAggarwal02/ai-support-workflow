@@ -1,0 +1,23 @@
+Intent Classifier Evaluation Report
+==================================================
+Accuracy: 0.9972
+Macro F1: 0.9974
+Weighted F1: 0.9972
+
+              precision    recall  f1-score   support
+
+     ACCOUNT       0.99      1.00      1.00      1197
+      CANCEL       1.00      1.00      1.00       190
+     CONTACT       1.00      0.99      1.00       400
+    DELIVERY       0.99      1.00      1.00       399
+    FEEDBACK       1.00      1.00      1.00       399
+     INVOICE       1.00      1.00      1.00       400
+       ORDER       1.00      1.00      1.00       798
+     PAYMENT       1.00      0.99      0.99       400
+      REFUND       1.00      1.00      1.00       598
+    SHIPPING       1.00      0.99      0.99       394
+SUBSCRIPTION       1.00      0.99      1.00       200
+
+    accuracy                           1.00      5375
+   macro avg       1.00      1.00      1.00      5375
+weighted avg       1.00      1.00      1.00      5375

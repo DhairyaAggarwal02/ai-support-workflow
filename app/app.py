@@ -22,7 +22,7 @@ This system simulates an AI-powered customer support workflow:
 - ROI estimation
 """)
 
-workflow = SupportWorkflow(domain="ecommerce")
+workflow = SupportWorkflow()
 
 query = st.text_input("Enter a customer query:")
 

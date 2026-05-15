@@ -1,0 +1,4 @@
+retriever,top1_accuracy,top3_accuracy
+TF-IDF,0.5857,0.7429
+BM25,0.5286,0.7571
+Hybrid,0.5571,0.7571

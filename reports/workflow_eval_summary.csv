@@ -1,0 +1,2 @@
+total_cases,action_accuracy,source_accuracy,false_automation_count,false_automation_rate_all_cases,false_automation_rate_expected_escalations,unnecessary_escalation_count,unnecessary_escalation_rate_all_cases,unnecessary_escalation_rate_expected_auto
+70,0.7857,0.5857,6,0.0857,0.2857,9,0.1286,0.1837

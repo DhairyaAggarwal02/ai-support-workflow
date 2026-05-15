@@ -1,0 +1,5 @@
+model,accuracy,macro_f1,weighted_f1,training_time_seconds,inference_time_seconds
+Calibrated Linear SVM,0.9978,0.9977,0.9978,0.51,0.0219
+Logistic Regression,0.9972,0.9974,0.9972,0.37,0.0193
+Naive Bayes,0.9961,0.9964,0.9961,0.1,0.0194
+Random Forest,0.995,0.9948,0.995,0.34,0.0324

@@ -3,7 +3,7 @@ from src.logger import log_result
 
 
 def main():
-    workflow = SupportWorkflow(domain="ecommerce")
+    workflow = SupportWorkflow()
 
     print("\nAI Support Workflow Demo")
     print("Type a customer question.")
